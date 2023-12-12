@@ -1,10 +1,14 @@
 .container{
     background: #fff;
     max-width:880px;
-    height:611px;
+    min-height:100vh;
     margin:20px auto;
     color:black;
     padding:20px;
+    overflow-y: auto;
+   position: relative;
+   z-index:0;
+   top:100px;
 }
 .container>p{color: var(--Black, #000);
     text-align: center;
