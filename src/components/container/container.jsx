@@ -6,7 +6,7 @@ import Camera from "../../assets/camera.png";
 
 function container() {
   return (
-    <div className="container">
+    <div className="container  450:w-[450px] w-[100%]">
       <p>Complete Detail info</p>
       <div className="inside">
         <div style={{ paddingLeft: 10 }} className="location">

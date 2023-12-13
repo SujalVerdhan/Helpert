@@ -1,6 +1,6 @@
 .container{
     background: #fff;
-    max-width:880px;
+    /* max-width:880px; */
     min-height:100vh;
     margin:20px auto;
     color:black;
@@ -25,6 +25,7 @@
        flex-shrink: none;
        border-radius: 8px;
 background: var(--Snow, #F4F4F4);
+padding:6px;
     }
     .location img{
         width:24px;
@@ -46,6 +47,8 @@ font-size: 14px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
     line-height: normal;
 }
  .inside .subhead{
@@ -56,6 +59,7 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 5px;
 }
 .location .yourcountry{
     color: var(--Moon, #999);
@@ -64,7 +68,7 @@ font-family: Poppins;
 font-size: 10px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+line-height: 2;
 }
 .links{
     display: flex;

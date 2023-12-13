@@ -21,7 +21,7 @@ z-index: 1;
    background: #F6F9FB;
     justify-content: space-evenly;
     align-items: center;
-    /* padding:20px; */
+    padding:20px;
 }
 .mid p{
     display:inline-block;
@@ -67,6 +67,7 @@ color: #000;
 }
 .login{
     display: flex;
+    align-items: center;
 }
 .sidelogin{
     color:white;
